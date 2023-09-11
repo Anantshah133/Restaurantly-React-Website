@@ -13,6 +13,9 @@ export default function HeroSection() {
                             <a href="#book-a-table" class="btn-book">Book a Table</a>
                         </div>
                     </div>
+                    <div className='col-lg-4 d-flex align-items-center justify-content-center position-relative'>
+                        <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"> </a>
+                    </div>
                 </div>
             </div>
         </section>
