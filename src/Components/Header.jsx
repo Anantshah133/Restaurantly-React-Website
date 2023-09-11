@@ -14,27 +14,11 @@ export default function Header() {
                         <li><a className="nav-link scrollto" href="#events">Events</a></li>
                         <li><a className="nav-link scrollto" href="#chefs">Chefs</a></li>
                         <li><a className="nav-link scrollto" href="#gallery">Gallery</a></li>
-                        <li className="dropdown"><a href="/index.html"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
-                            {/* <ul>
-                            <li><a href="/index.html">Drop Down 1</a></li>
-                            <li className="dropdown"><a href="/index.html"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="/index.html">Deep Drop Down 1</a></li>
-                                    <li><a href="/index.html">Deep Drop Down 2</a></li>
-                                    <li><a href="/index.html">Deep Drop Down 3</a></li>
-                                    <li><a href="/index.html">Deep Drop Down 4</a></li>
-                                    <li><a href="/index.html">Deep Drop Down 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="/index.html">Drop Down 2</a></li>
-                            <li><a href="/index.html">Drop Down 3</a></li>
-                            <li><a href="/index.html">Drop Down 4</a></li>
-                        </ul> */}
-                        </li>
+                        <li className="dropdown"><a href="/index.html"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a></li>
                         <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
                     </ul>
                 </nav>
-                <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
+                <a href="#book-a-table" className="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
             </div>
         </header>
     )
